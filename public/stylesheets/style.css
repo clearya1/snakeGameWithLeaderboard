@@ -1,0 +1,67 @@
+* {
+    font-family: "Georgia";
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: 'red';
+}
+
+header {
+    text-align: center;
+    background-color: 'red';
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+    padding: 30px;
+}
+
+body div.score {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+body div.container {
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+div.game {
+    width: 60%;
+    height: 300px;
+    float: left;
+    text-align: center;
+}
+
+div.leaderboard {
+    margin-left: 60%;
+    height: 300px;
+    text-align: center;
+}
+
+div.leaderboard ol {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+div.leaderboard ol li {
+    margin: 0px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+div.leaderboard h2 {
+    position: relative;
+    transform: translateX(-4%);
+    font-size: 30px;
+}
+
+
+
